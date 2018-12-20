@@ -1,16 +1,16 @@
 .block-series-container {
-	
-	display : flex;
+	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-    padding: 0 10%;
+	padding: 5% 10%;
 }
 
 .block-series-container a {
-	
-	display : flex;
+	display: flex;
 	width: 200px;
-    height: 200px;
-        align-items: center;
-    justify-content: center;
+	height: 200px;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid black;
+	margin: 1%;
 }

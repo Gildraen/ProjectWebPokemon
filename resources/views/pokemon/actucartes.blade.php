@@ -1,8 +1,5 @@
 @extends('layouts.app')
 @section('pageTitle', 'Page Title')
-@push('css')
-	<link href="{{ asset('css/main.css') }}" rel="stylesheet">
-@endpush
 @section('content')
 <div id="page-wrapper">
 		<!-- Main Wrapper -->
@@ -129,11 +126,3 @@
 </div>
 @endsection
 <!-- Scripts -->
-@push('javascript')
-			<script src="{{asset('js/jquery.min.js') }}"></script>
-			<script src="{{asset('js/jquery.dropotron.min.js') }}"></script>
-			<script src="{{asset('js/browser.min.js') }}"></script>
-			<script src="{{asset('js/breakpoints.min.js') }}"></script>
-			<script src="{{asset('js/util.js') }}"></script>
-			<script src="{{asset('js/main.js') }}"></script>
-@endpush

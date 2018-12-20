@@ -12,6 +12,12 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    			<script src="{{asset('js/jquery.min.js') }}"></script>
+			<script src="{{asset('js/jquery.dropotron.min.js') }}"></script>
+			<script src="{{asset('js/browser.min.js') }}"></script>
+			<script src="{{asset('js/breakpoints.min.js') }}"></script>
+			<script src="{{asset('js/util.js') }}"></script>
+			<script src="{{asset('js/main.js') }}"></script>
     @stack('javascript')
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
@@ -23,6 +29,7 @@
 
     <link href="{{ asset('css/menu.css') }}" rel="stylesheet">
     <link href="{{ asset('css/footer.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/main.css') }}" rel="stylesheet">
     @stack('css')
 
 </head>
