@@ -80,3 +80,15 @@ footer {
 #copyright a {
     color: inherit;
 }
+
+#footer li img {
+	width : 40px;
+}
+
+#footer #newsletter {
+	    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    width : 85%;
+}
+}

@@ -2,102 +2,50 @@
 <div id="footer-wrapper">
     <footer id="footer" class="container">
         <div class="row">
-            <div class="col-3 col-6-medium col-12-small">
+            <div class="col-4 col-6-medium col-12-small">
                 <!-- Links -->
                 <section>
-                    <h2>LIENS</h2>
+                    <h2>Retrouvez nous sur les réseaux !</h2>
                     <ul class="divided">
-                        <li><a href="#">Quam turpis feugiat dolor</a></li>
-                        <li><a href="#">Amet ornare in hendrerit </a></li>
-                        <li><a href="#">Semper mod quisturpis nisi</a></li>
-                        <li><a href="#">Consequat etiam phasellus</a></li>
-                        <li><a href="#">Amet turpis, feugiat et</a></li>
-                        <li><a href="#">Ornare hendrerit lectus</a></li>
-                        <li><a href="#">Semper mod quis et dolore</a></li>
-                        <li><a href="#">Amet ornare in hendrerit</a></li>
-                        <li><a href="#">Consequat lorem phasellus</a></li>
-                        <li><a href="#">Amet turpis, feugiat amet</a></li>
-                        <li><a href="#">Semper mod quisturpis</a></li>
+                        <li><a href="#">Twitter  <img src="{{ asset('images/twitter.png') }}" alt="" /></a></li>
+                        <li><a href="#">Facebook <img src="{{ asset('images/facebook.png') }}" alt="" /></a> </li>
+                        <li><a href="#">Instagram <img src="{{ asset('images/instagram.png') }}" alt="" /></a> </li>
+                        <li><a href="#">Youtube <img src="{{ asset('images/youtube.png') }}" alt="" /></a> </li>
                     </ul>
                 </section>
 
             </div>
-            <div class="col-3 col-6-medium col-12-small">
+            <div class="col-4 col-6-medium col-12-small">
 
                 <!-- Links -->
                 <section>
                     <h2>PLAN DU SITE</h2>
                     <ul class="divided">
-                        <li><a href="#">Quam turpis feugiat dolor</a></li>
-                        <li><a href="#">Amet ornare in in lectus</a></li>
-                        <li><a href="#">Semper mod sed tempus nisi</a></li>
-                        <li><a href="#">Consequat etiam phasellus</a></li>
+                        <li><a href="#">Mentions légales</a></li>
+                        <li><a href="#">Nous contacter</a></li>
+                        <li><a href="#">Qui sommes-nous ?</a></li>
+                        <li><a href="#">Gestions des données</a></li>
                     </ul>
                 </section>
-
-                <!-- Links -->
-                <section>
-                    <h2>NOUS CONNAITRE</h2>
-                    <ul class="divided">
-                        <li><a href="#">Quam turpis feugiat dolor</a></li>
-                        <li><a href="#">Amet ornare hendrerit lectus</a></li>
-                        <li><a href="#">Semper quisturpis nisi</a></li>
-                        <li><a href="#">Consequat lorem phasellus</a></li>
-                    </ul>
-                </section>
-
-            </div>
-            <div class="col-6 col-12-medium imp-medium">
+		    </div>
+            <div class="col-4 col-6-medium imp-medium">
 
                 <!-- About -->
                 <section>
-                    <h2>Remerciements</h2>
-                    <p>Hi! This is <strong>ZeroFour</strong>, a free, fully responsive HTML5 site
-                        template by <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net/">HTML5 UP</a>.
-                        It's <a href="http://html5up.net/license/">Creative Commons Attribution</a>
-                        licensed so use it for any personal or commercial project (just credit us
-                        for the design!).</p>
-                    <a href="#" class="button alt icon fa-arrow-circle-right">HTML5 UP</a>
-                </section>
-
-                <!-- Contact -->
-                <section>
-                    <h2>Nous contacter</h2>
-                    <div>
-                        <div class="row">
-                            <div class="col-6 col-12-small">
-                                <dl class="contact">
-                                    <dt>Twitter</dt>
-                                    <dd><a href="#">@untitled-corp</a></dd>
-                                    <dt>Facebook</dt>
-                                    <dd><a href="#">facebook.com/untitled</a></dd>
-                                    <dt>WWW</dt>
-                                    <dd><a href="#">untitled.tld</a></dd>
-                                    <dt>Email</dt>
-                                    <dd><a href="#">user@untitled.tld</a></dd>
-                                </dl>
-                            </div>
-                            <div class="col-6 col-12-small">
-                                <dl class="contact">
-                                    <dt>Address</dt>
-                                    <dd>
-                                        1234 Fictional Rd<br />
-                                        Nashville, TN 00000-0000<br />
-                                        USA
-                                    </dd>
-                                    <dt>Phone</dt>
-                                    <dd>(000) 000-0000</dd>
-                                </dl>
-                            </div>
-                        </div>
-                    </div>
+                 <h2>Restez à jour !</h2>
+                <div id='newsletter'>
+                 
+                     <label>Email : </label><input type="text"></div>
+                   
+                     
+                     <button>Je m'abonne à la Newsletter</button>
                 </section>
 
             </div>
             <div class="col-12">
                 <div id="copyright">
                     <ul class="menu">
-                        <li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                        <li>&copy; Hous of the Trading Cards. All rights reserved</li><li>Design: HOTC</a></li>
                     </ul>
                 </div>
             </div>

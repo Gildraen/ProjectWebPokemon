@@ -1,4 +1,8 @@
 <?php
+
+namespace App\Services;
+
+
 use App\Models\Block;
 use Pokemon\Pokemon;
 

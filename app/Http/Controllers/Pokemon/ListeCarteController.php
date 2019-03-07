@@ -2,7 +2,7 @@
 namespace App\Http\Controllers\Pokemon;
 
 use App\Http\Controllers\Controller;
-use ListeCarteService;
+use App\Services\ListeCarteService;
 
 class ListeCarteController extends Controller
 {
