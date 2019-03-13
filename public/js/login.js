@@ -12,14 +12,20 @@ $(document).ready(function(){
   
         // Start
         tl
-        .to(blackLine,0.3,{className:'+=red-circle'})
-        .to(blackLine,0.3,{className:'-=red-circle'})
-/*         .to(ball,0.2,{y:"-70%",ease:Power4.easeOut}) 
+        .to(blackLine,0.2,{className:'+=red-circle'})
+        .to(blackLine,0.2,{className:'-=red-circle'})
+        .to(blackLine,0.2,{className:'+=red-circle'})
+        .to(blackLine,0.2,{className:'-=red-circle'})
+        .to(blackLine,0.2,{className:'+=red-circle'})
+        .to(blackLine,0.2,{className:'-=red-circle'})
+        .to(blackLine,0.2,{className:'+=red-circle'})
+        .to(blackLine,0.2,{className:'-=red-circle'})
+        .to(ball,0.2,{y:"-70%",ease:Power4.easeOut}) 
         .to(ball,0.2,{y:"-50%",ease:Bounce.easeOut})
         .to(ball,0.2,{y:"-85%",ease:Power4.easeOut},"+=0.5")
-        .to(ball,0.2,{y:"-50%",ease:Bounce.easeOut}) */
-        .to(ball,0.3,{y:"-100%",ease:Power4.easeOut},"+=0.5")
-        .to(ball,0.3,{y:"-50%",ease:Bounce.easeOut,onComplete:toggle})
+        .to(ball,0.2,{y:"-50%",ease:Bounce.easeOut})
+        .to(ball,0.2,{y:"-100%",ease:Power4.easeOut},"+=0.5")
+        .to(ball,0.2,{y:"-50%",ease:Bounce.easeOut,onComplete:toggle})
         ;
         function toggle(o){
           $(".main-forms").slideDown(1500);
