@@ -7,10 +7,10 @@
                 <section>
                     <h2>Retrouvez nous sur les réseaux !</h2>
                     <ul class="divided">
-                        <li><a href="#">Twitter  <img src="{{ asset('images/twitter.png') }}" alt="" /></a></li>
-                        <li><a href="#">Facebook <img src="{{ asset('images/facebook.png') }}" alt="" /></a> </li>
-                        <li><a href="#">Instagram <img src="{{ asset('images/instagram.png') }}" alt="" /></a> </li>
-                        <li><a href="#">Youtube <img src="{{ asset('images/youtube.png') }}" alt="" /></a> </li>
+                        <li><a href="https://twitter.com/HotcTcg">Twitter  <img src="{{ asset('images/twitter.png') }}" alt="" /></a></li>
+                        <li><a href="https://www.facebook.com/HOTC-731501863911908/">Facebook <img src="{{ asset('images/facebook.png') }}" alt="" /></a> </li>
+                        <li><a href="https://www.instagram.com/hotc_tcg/">Instagram <img src="{{ asset('images/instagram.png') }}" alt="" /></a> </li>
+                        <li><a href="https://www.youtube.com/channel/UCgmF12GJWE8BimZRn-9icuA">Youtube <img src="{{ asset('images/youtube.png') }}" alt="" /></a> </li>
                     </ul>
                 </section>
 
