@@ -30,6 +30,8 @@ Route::get('/pk/accar', function () {
     Route::get('/pk/li', 'Pokemon\ListeCarteController@seriesPokemon');
     Route::get('/pk/li/{id}', 'Pokemon\ListeCarteController@setsPokemon');
     Route::get('/pk/li/{id}/{code}', 'Pokemon\ListeCarteController@cardsPokemon');
+    Route::get('/pk/li/{id}/{code}/{number}', 'Pokemon\ListeCarteController@cardPokemon');
+    
     
 Route::get('/pk/top', function () {
     return view('pokemon/topcartes');

@@ -31,4 +31,12 @@ class ListeCarteService {
         
         return $cards;
     }
+    
+    public function getCardByNumber($setCode, $number) {
+        
+        $card = Pokemon::Card()->where(['setCode' => $setCode, 'number' => $number])->all();
+        
+                 
+        return $card[0];
+    }
 }

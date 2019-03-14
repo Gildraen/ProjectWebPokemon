@@ -37,7 +37,19 @@ class ListeCarteController extends Controller
 
         return view('pokemon/liste-cartes', [
             'cards' => $cards,
-            'serie' => $serieId
+            'serie' => $serieId,
+            'setCode' => $setCode
+        ]);
+    }
+    
+    public function cardPokemon($serieId, $setCode, $number)
+    {
+        $card = $this->listeCarteService->getCardByNumber($setCode, $number);
+        
+        return view('pokemon/carte', [
+            'card' => $card,
+            'serie' => $serieId,
+            'setCode' => $setCode
         ]);
     }
     

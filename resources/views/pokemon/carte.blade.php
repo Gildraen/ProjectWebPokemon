@@ -7,13 +7,11 @@
 
 	<div class="block-cards-container">
 		<div>
-			<a href="{{ url('/pk/li/'. $serie) }}"> Revenir � la liste des sets</a>
+			<a href="{{ url('/pk/li/'. $serie . '/' . $setCode) }}"> Revenir � la liste des cartes</a>
 		</div>
-		<ul>
-			@foreach($cards as $card)
-			<li><a href="{{ url('/pk/li/'. $serie . '/' . $setCode .'/' . $card->getnumber()) }}"> {{
-					$card->getName() }}</a></li> @endforeach
-		</ul>
+		<div>
+		<div> <?php var_dump($card)?></div>
+		</div>
 	</div>
 </div>
 @endsection
