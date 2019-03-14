@@ -9,10 +9,10 @@
 		<div>
 			<a href="{{ url('/pk/li/'. $serie) }}"> Revenir � la liste des sets</a>
 		</div>
-		<ul>
+		<ul class="cards">
 			@foreach($cards as $card)
-			<li><a href="{{ url('/pk/li/'. $serie . '/' . $setCode .'/' . $card->getnumber()) }}"> {{
-					$card->getName() }}</a></li> @endforeach
+			<li class="card"><a href="{{ url('/pk/li/'. $serie . '/' . $setCode .'/' . $card->getnumber()) }}"> <img alt="" src="{{	$card->getImageUrl()}}">
+					</a></li> @endforeach
 		</ul>
 	</div>
 </div>
